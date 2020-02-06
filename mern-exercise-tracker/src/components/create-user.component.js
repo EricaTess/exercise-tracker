@@ -9,8 +9,8 @@ export default class CreateUser extends Component {
     this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
-      username: '',
-    }
+      username: ''
+    };
   }
 
   onChangeUsername(e) {
@@ -23,7 +23,7 @@ export default class CreateUser extends Component {
     e.preventDefault();
 
     const user = {
-      username: this.state.username,
+      username: this.state.username
     }
 
     console.log(user);
@@ -51,7 +51,7 @@ export default class CreateUser extends Component {
               />
           </div>
           <div className="form-group">
-            <input type="submit" value="Create User"className="btn btn primary" />
+            <input type="submit" value="Create User" className="btn btn-primary" />
           </div>
         </form>
       </div>
