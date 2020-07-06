@@ -1,2 +1,2 @@
-# exercise-tracker
+# Exercises Tracker
 Learning MERN Stack
